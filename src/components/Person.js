@@ -7,7 +7,7 @@ export const Person = () => {
     status: "single",
     grade: 0,
   });
-  const [schools, setSchools] = useState([]);
+  const [schools] = useState([]);
 
   useEffect(() => {
     console.log("mounted");
